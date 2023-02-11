@@ -63,6 +63,7 @@ mod tests {
     // 動作しない。この本の意図としてはrepositoryはプロセス外依存ではあるものの共有依存でないので実装詳細としている。
     // なのでDBにつなぐなどしてRepositoryが動作するようにする必要がある。
     #[test]
+    #[ignore]
     fn successful_purchase() {
         let mut mock = MockEmailGateway::new();
         mock.expect_send_receipt()
