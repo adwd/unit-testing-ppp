@@ -3,6 +3,7 @@ pub mod ch_03;
 pub mod ch_05;
 pub mod ch_06;
 pub mod ch_06_audit_log;
+pub mod ch_07_user_management;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
