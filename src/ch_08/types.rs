@@ -56,8 +56,8 @@ pub enum UserType {
 impl From<String> for UserType {
     fn from(v: String) -> Self {
         match v.as_str() {
-            "CUSTOMER" => Self::Employee,
-            _ => Self::Cusotmer,
+            "CUSTOMER" => Self::Cusotmer,
+            _ => Self::Employee,
         }
     }
 }

@@ -65,7 +65,6 @@ impl Database for SQLiteDatabase {
 
 #[cfg(test)]
 mod test {
-    use anyhow::anyhow;
     use mockall::predicate::eq;
     use std::error;
 
